@@ -35,7 +35,7 @@ const scrollContainer = document.querySelectorAll(".products");
 for (const item of scrollContainer) {
   item.addEventListener("wheel", (event) => {
     event.preventDefault();
-    item.scrollLeft += event.deltaY;  // Horizontal scroll triggered by vertical scrolling
+    item.scrollLeft += event.deltaY; // Horizontal scroll triggered by vertical scrolling
   });
 }
 
@@ -43,11 +43,4 @@ console.log(scrollContainer);
 
 /* ------------------------------------------- Home Page End ------------------------------------------- */
 
-
-
-
 /* ------------------------------------------- Product Page Start ------------------------------------------- */
-
-
-
-
